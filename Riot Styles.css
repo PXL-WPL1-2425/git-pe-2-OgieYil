@@ -1,3 +1,6 @@
+
+
+
 *{
 
     margin: 0;
@@ -15,7 +18,7 @@ body{
 
 
 header{
-    color: red;
+
     position: absolute;
     top: 0;
     left: 0;
@@ -37,10 +40,33 @@ header{
     align-items: center;
 
 }
-
 .Logo img {
 
 
     width: 120px;
 
 }
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: red;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.Sign-In {
+
+    color: #fff;
+
+}
+
+
+
+
